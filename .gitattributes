@@ -1,0 +1,6 @@
+# Giữ gradlew ở LF để runner Linux thực thi được shebang #!/bin/sh
+gradlew text eol=lf
+*.sh text eol=lf
+gradlew.bat text eol=crlf
+
+* text=auto
